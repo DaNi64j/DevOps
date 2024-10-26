@@ -16,5 +16,5 @@ jobs:
         python-version: '3.13.0'
 
     - name: Run Python Script
-      run: python script.py
+      run: python ./scripts/script.py
 
