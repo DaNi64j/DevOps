@@ -13,8 +13,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.13.0'
+        python-version: '3.12.4'
 
     - name: Run Python Script
-      run: python ./scripts/script.py
-
+      run: python script.py
